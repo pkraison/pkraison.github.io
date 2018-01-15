@@ -437,6 +437,93 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
   margin-bottom: 1em;
   border-radius: 50%;
 }
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+
+#menu
+{
+}
+
+#menu ul
+{
+}
+
+#menu li
+{
+  border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+#menu li a, #menu li span
+{
+  display: block;
+  padding: 2em 1.5em;
+  text-align: center;
+  text-decoration:  none;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: rgba(255,255,255,0.5);
+}
+
+#menu li:hover a, #menu li.active a, #menu li.active span
+{
+}
+
+#menu .current_page_item a
+{
+  background: #2980b9;
+  color: rgba(255,255,255,1);
+}
+
+#menu .icon
+{
+}
+
+/*********************************************************************************/
+/* SubMenu                                                                          */
+/*********************************************************************************/
+
+#sub_menu
+{
+        background: #2980b9;
+        margin: -16px 0px;
+}
+
+#sub_menu ul
+{
+}
+
+#sub_menu li
+{
+  border-top: 0px solid rgba(255,255,255,0.08);
+}
+
+#sub_menu li a, #sub_menu li span
+{
+  display: block;
+  padding: 0.5em 0.0em;
+  text-align: center;
+  text-decoration:  none;
+  font-weight: 300;
+  color: rgba(255,255,255,0.5);
+}
+
+#sub_menu li:hover a, #sub_menu li.active a, #sub_menu li.active span
+{
+}
+
+#sub_menu .current_page_item a
+{
+  border: 1px solid rgba(255,255,255,0.08);
+  color: rgba(255,255,255,1);
+  font-weight: 500;
+}
+
+#sub_menu .icon
+{
+}
+
 /*********************************************************************************/
 /* Banner                                                                        */
 /*********************************************************************************/
@@ -480,4 +567,55 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
   margin-bottom: 3em;
   padding-top: 5em;
   border-top: 1px solid rgba(0,0,0,0.08);
+}
+
+/*********************************************************************************/
+/* Sidebar                                                                       */
+/*********************************************************************************/
+
+#sidebar
+{
+}
+
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+
+#footer
+{
+}
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+#copyright
+{
+  overflow: hidden;
+  padding: 5em 0em;
+  border-top: 1px solid rgba(0,0,0,0.08);
+}
+
+#copyright span
+{
+  display: block;
+  letter-spacing: 0.20em;
+  line-height: 2.5em;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.80em;
+  color: rgba(0,0,0,0.7);
+}
+
+#copyright a
+{
+  text-decoration: none;
+  color: rgba(0,0,0,0.9);
+}
+
+.fa
+{
+  display: block;
+  color: #000;
+  background: red;
 }
