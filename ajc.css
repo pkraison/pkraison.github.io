@@ -2280,7 +2280,7 @@
 		background-color: #989898;
 		border-radius: 5px;
 		border: 0;
-		color: #ffffff !important;
+		color: #fff !important;
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 700;
@@ -2449,8 +2449,8 @@
 /* Header */
 
 	#header {
-		background: #8c1515;
-		color: #d1a1a1; /* a light red */
+		background: #00aced;
+		color: #8c1515; /* light blue */
 		height: 100%;
 		position: fixed;
 		text-align: center;
