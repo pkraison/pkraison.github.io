@@ -2602,7 +2602,7 @@ textarea.form-control:focus, textarea.form-control:active {
 }
 
 .progress-container.progress-primary .progress-bar {
-  background: #378C3F;
+  background: #ff9800;
 }
 
 .progress-container.progress-primary .progress-value,
